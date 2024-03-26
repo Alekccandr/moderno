@@ -26,7 +26,7 @@ function scripts() {    /*Сделали унифицированный main.js 
 }
 
 function styles(){
-    return src('app/scss/style.scss')
+    return src('app/scss/**/*.scss')
         .pipe(autoprefixer({ overrideBrowserslist: ['last 10 version']}))
         .pipe(concat('style.min.css')) /*Мы создали файл style.min.css и удалили файлю style.css*/
         .pipe(scss({ outputStyle: 'compressed' })) /*Испльзуем функции scss для сжатия унифицирования файлов, т.е. в файле css весь код представляеться в одну строку*/
