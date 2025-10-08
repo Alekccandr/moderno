@@ -1,21 +1,22 @@
 {
-  "name": "start-gulp",
+  "name": "gulp-2025",
   "version": "1.0.0",
-  "description": "",
+  "description": "Пробная GULP для вспоминания!",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "Aleksandr",
+  "author": "Alexander AAA",
   "license": "ISC",
   "devDependencies": {
-    "browser-sync": "^3.0.2",
-    "gulp": "^4.0.2",
-    "gulp-autoprefixer": "^8.0.0",
-    "gulp-clean": "^0.4.0",
+    "browser-sync": "^3.0.4",
+    "gulp": "^5.0.1",
+    "gulp-autoprefixer": "^10.0.0",
     "gulp-concat": "^2.6.1",
-    "gulp-sass": "^5.1.0",
-    "gulp-uglify-es": "^3.0.0",
-    "sass": "^1.72.0"
+    "gulp-sass": "^6.0.1",
+    "sass": "^1.93.2"
+  },
+  "dependencies": {
+    "gulp-uglify-es": "^3.0.0"
   }
 }
